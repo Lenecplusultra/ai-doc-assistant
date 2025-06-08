@@ -1,5 +1,9 @@
 # 🧠 AI-Powered Internal Documentation Assistant
 
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Made with](https://img.shields.io/badge/built%20with-React%20%7C%20FastAPI%20%7C%20LangChain-blueviolet)
+
 > ChatGPT-style assistant that understands your documentation — built with React, FastAPI, and GPT or local LLMs.
 
 ---
@@ -34,4 +38,3 @@
 ```bash
 git clone https://github.com/Lenecplusultra/ai-doc-assistant.git
 cd ai-doc-assistant
-
