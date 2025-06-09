@@ -45,6 +45,7 @@ function App() {
       }, 20);
 
     } catch (err) {
+      console.error("❌ Fetch error:", err); // view error
       setMessages((prev) => [
         ...prev,
         { sender: "bot", text: "⚠️ Error contacting backend" },
