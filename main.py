@@ -13,10 +13,7 @@ app = FastAPI()
 # Allow frontend to access backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-    "https://ai-doc-assistant.vercel.app",
-    "https://ai-doc-assistant-k<hash>.vercel.app"
-    ] ,
+    allow_origins=["*"] ,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
