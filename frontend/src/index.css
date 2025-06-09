@@ -1,0 +1,25 @@
+.light {
+  --bg: #f2f2f2;
+  --text: #111;
+  --bubble-user: #DCF8C6;
+  --bubble-bot: #E3E3E3;
+  --chat-bg: #ffffff;
+  --header-font: 'Georgia', serif;
+}
+
+.dark {
+  --bg: #0f0f0f;
+  --text: #fff;
+  --bubble-user: #2e8b57;
+  --bubble-bot: #252525;
+  --chat-bg: #1a1a1a;
+  --header-font: 'Georgia', serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: sans-serif;
+}
